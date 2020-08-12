@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>  
+<!DOCTYPE books [
+<!ELEMENT books (book)*>
+<!ELEMENT book (Title, Author, Genre, Copyright, Edition, Isbn, Publisher, Price)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Copyright (#PCDATA)>
+<!ELEMENT Edition (#PCDATA)>
+<!ELEMENT Isbn (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT Price (#PCDATA)> 
+]>
+
+<books> 
+	<book>
+		<title> Wings  of Fire  </title>
+		<author> A.P.J Abdul Kalam </author>
+		<genre> Autobiography </genre>
+		<copyright> 1999 </copyright>
+		<edition> First </edition>
+		<isbn> 9788173711466 </isbn>
+		<publisher> Universities Press </publisher>
+		<price> 300 </price>
+ 	</book>
+ 	<book>
+		<title> Rich Dad Poor Dad</title>
+		<author> Robert Kiyosaki</author>
+		<genre> Self-help book </genre>
+		<copyright> 1997</copyright>
+		<edition> First </edition>
+		<isbn> 9781612680194 </isbn>
+		<publisher>Warner Books Ed</publisher>
+		<price> 400 </price>
+	</book>
+	<book>
+		<title> The Great Gatsby </title>
+		<author> Scott </author>
+		<genre> Sci-fi </genre>
+		<copyright> 2020 </copyright>
+		<edition> First </edition>
+		<isbn> 978-04202010789 </isbn>
+		<publisher> HarperCollins </publisher>
+		<price> 250 </price>
+ 	</book>
+ 	<book>
+		<title> Five Point Someone</title>
+		<author> CHETAN BHAGAT </author>
+		<genre> Humour </genre>
+		<copyright> 2014 </copyright>
+		<edition> First </edition>
+		<isbn> 9788129135490;</isbn>
+		<publisher> Rupa Publications </publisher>
+		<price> 300 </price>
+ 	</book>
+ 	<book>
+		<title>	Believe in yourself </title>
+		<author>joesph Murphy </author>
+		<genre> Self-help book </genre>
+		<copyright> 1955</copyright>
+		<edition> First </edition>
+		<isbn> 9781604597301 </isbn>
+		<publisher>Wilder Publications</publisher>
+		<price> 234 </price>
+ 	</book>
+</books>
